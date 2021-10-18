@@ -12,11 +12,11 @@ You can the run the api in it directory:
 
 ### 'npm start'
 
-Run the react app:
+Run the frontend react app:
 
 ### 'npm start'
 
-React app runs in the development mode.\
+frontend React app runs in the development mode.\
 open (http://localhost:3000) to view it in the browser.Before that should be in tha directory.
 
 For JSON:
