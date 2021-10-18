@@ -4,7 +4,7 @@ This project is Search bar using Reactjs and Nodejs
 
 ##Available Scripts
 
-Before going to start install node packages:
+Before going to start should install node packages:
 
 ### 'npm install'
 
