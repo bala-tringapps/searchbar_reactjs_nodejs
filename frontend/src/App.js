@@ -6,16 +6,15 @@ import axios from 'axios';
 function App() {
 
   const [fruit, setFruit] = useState([]);
-  
+  const [identity, setId] = useState(0);
+  const [name, setName] = useState(0);
   const [search, setSearch] = useState("");
-  
   const [filteritems, setFilteritems] = useState([]);
   
  
 
   useEffect(() => {
-    const [identity, setId] = useState(0);
-    const [name, setName] = useState(0);
+    
     axios.get('http://localhost:3010/testApi')
     .then(res => {
       setFruit(res.data);
